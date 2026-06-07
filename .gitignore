@@ -1,0 +1,31 @@
+# =========================
+# BACKEND (Python / FastAPI)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+# Ignore our local SQLite database so we don't upload junk data
+*.db
+orion_vault.db
+# Ignore future secret keys
+.env
+
+# =========================
+# FRONTEND (Next.js / React)
+# =========================
+frontend/node_modules/
+node_modules/
+.next/
+out/
+build/
+.env*.local
+
+# =========================
+# OS / SYSTEM FILES
+# =========================
+# Crucial for Mac users to avoid uploading weird hidden folder files
+.DS_Store
+Thumbs.db
